@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83330D3B19F3FAE50088CDE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83330D3A19F3FAE50088CDE1 /* AppDelegate.swift */; };
+		83330D3D19F3FAE50088CDE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83330D3C19F3FAE50088CDE1 /* ViewController.swift */; };
+		83330D4019F3FAE50088CDE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83330D3E19F3FAE50088CDE1 /* Main.storyboard */; };
+		83330D4219F3FAE50088CDE1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83330D4119F3FAE50088CDE1 /* Images.xcassets */; };
+		83330D4519F3FAE50088CDE1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83330D4319F3FAE50088CDE1 /* LaunchScreen.xib */; };
+		83330D5119F3FAE50088CDE1 /* PostGPSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83330D5019F3FAE50088CDE1 /* PostGPSTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83330D4B19F3FAE50088CDE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83330D2D19F3FAE50088CDE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83330D3419F3FAE50088CDE1;
+			remoteInfo = PostGPS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		83330D3519F3FAE50088CDE1 /* PostGPS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PostGPS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83330D3919F3FAE50088CDE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83330D3A19F3FAE50088CDE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		83330D3C19F3FAE50088CDE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		83330D3F19F3FAE50088CDE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83330D4119F3FAE50088CDE1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		83330D4419F3FAE50088CDE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		83330D4A19F3FAE50088CDE1 /* PostGPSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostGPSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83330D4F19F3FAE50088CDE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83330D5019F3FAE50088CDE1 /* PostGPSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGPSTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83330D3219F3FAE50088CDE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83330D4719F3FAE50088CDE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83330D2C19F3FAE50088CDE1 = {
+			isa = PBXGroup;
+			children = (
+				83330D3719F3FAE50088CDE1 /* PostGPS */,
+				83330D4D19F3FAE50088CDE1 /* PostGPSTests */,
+				83330D3619F3FAE50088CDE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83330D3619F3FAE50088CDE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83330D3519F3FAE50088CDE1 /* PostGPS.app */,
+				83330D4A19F3FAE50088CDE1 /* PostGPSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83330D3719F3FAE50088CDE1 /* PostGPS */ = {
+			isa = PBXGroup;
+			children = (
+				83330D3A19F3FAE50088CDE1 /* AppDelegate.swift */,
+				83330D3C19F3FAE50088CDE1 /* ViewController.swift */,
+				83330D3E19F3FAE50088CDE1 /* Main.storyboard */,
+				83330D4119F3FAE50088CDE1 /* Images.xcassets */,
+				83330D4319F3FAE50088CDE1 /* LaunchScreen.xib */,
+				83330D3819F3FAE50088CDE1 /* Supporting Files */,
+			);
+			path = PostGPS;
+			sourceTree = "<group>";
+		};
+		83330D3819F3FAE50088CDE1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83330D3919F3FAE50088CDE1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		83330D4D19F3FAE50088CDE1 /* PostGPSTests */ = {
+			isa = PBXGroup;
+			children = (
+				83330D5019F3FAE50088CDE1 /* PostGPSTests.swift */,
+				83330D4E19F3FAE50088CDE1 /* Supporting Files */,
+			);
+			path = PostGPSTests;
+			sourceTree = "<group>";
+		};
+		83330D4E19F3FAE50088CDE1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83330D4F19F3FAE50088CDE1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83330D3419F3FAE50088CDE1 /* PostGPS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83330D5419F3FAE50088CDE1 /* Build configuration list for PBXNativeTarget "PostGPS" */;
+			buildPhases = (
+				83330D3119F3FAE50088CDE1 /* Sources */,
+				83330D3219F3FAE50088CDE1 /* Frameworks */,
+				83330D3319F3FAE50088CDE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PostGPS;
+			productName = PostGPS;
+			productReference = 83330D3519F3FAE50088CDE1 /* PostGPS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83330D4919F3FAE50088CDE1 /* PostGPSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83330D5719F3FAE50088CDE1 /* Build configuration list for PBXNativeTarget "PostGPSTests" */;
+			buildPhases = (
+				83330D4619F3FAE50088CDE1 /* Sources */,
+				83330D4719F3FAE50088CDE1 /* Frameworks */,
+				83330D4819F3FAE50088CDE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83330D4C19F3FAE50088CDE1 /* PBXTargetDependency */,
+			);
+			name = PostGPSTests;
+			productName = PostGPSTests;
+			productReference = 83330D4A19F3FAE50088CDE1 /* PostGPSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83330D2D19F3FAE50088CDE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Chris Eidhof";
+				TargetAttributes = {
+					83330D3419F3FAE50088CDE1 = {
+						CreatedOnToolsVersion = 6.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					83330D4919F3FAE50088CDE1 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 83330D3419F3FAE50088CDE1;
+					};
+				};
+			};
+			buildConfigurationList = 83330D3019F3FAE50088CDE1 /* Build configuration list for PBXProject "PostGPS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83330D2C19F3FAE50088CDE1;
+			productRefGroup = 83330D3619F3FAE50088CDE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83330D3419F3FAE50088CDE1 /* PostGPS */,
+				83330D4919F3FAE50088CDE1 /* PostGPSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83330D3319F3FAE50088CDE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83330D4019F3FAE50088CDE1 /* Main.storyboard in Resources */,
+				83330D4519F3FAE50088CDE1 /* LaunchScreen.xib in Resources */,
+				83330D4219F3FAE50088CDE1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83330D4819F3FAE50088CDE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83330D3119F3FAE50088CDE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83330D3D19F3FAE50088CDE1 /* ViewController.swift in Sources */,
+				83330D3B19F3FAE50088CDE1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83330D4619F3FAE50088CDE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83330D5119F3FAE50088CDE1 /* PostGPSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83330D4C19F3FAE50088CDE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83330D3419F3FAE50088CDE1 /* PostGPS */;
+			targetProxy = 83330D4B19F3FAE50088CDE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		83330D3E19F3FAE50088CDE1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83330D3F19F3FAE50088CDE1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		83330D4319F3FAE50088CDE1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83330D4419F3FAE50088CDE1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83330D5219F3FAE50088CDE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos7.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		83330D5319F3FAE50088CDE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos7.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83330D5519F3FAE50088CDE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ADDITIONAL_SDKS = iphoneos8.0;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PostGPS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos8.1;
+			};
+			name = Debug;
+		};
+		83330D5619F3FAE50088CDE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ADDITIONAL_SDKS = iphoneos8.0;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PostGPS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos8.1;
+			};
+			name = Release;
+		};
+		83330D5819F3FAE50088CDE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PostGPSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PostGPS.app/PostGPS";
+			};
+			name = Debug;
+		};
+		83330D5919F3FAE50088CDE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PostGPSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PostGPS.app/PostGPS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83330D3019F3FAE50088CDE1 /* Build configuration list for PBXProject "PostGPS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83330D5219F3FAE50088CDE1 /* Debug */,
+				83330D5319F3FAE50088CDE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83330D5419F3FAE50088CDE1 /* Build configuration list for PBXNativeTarget "PostGPS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83330D5519F3FAE50088CDE1 /* Debug */,
+				83330D5619F3FAE50088CDE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83330D5719F3FAE50088CDE1 /* Build configuration list for PBXNativeTarget "PostGPSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83330D5819F3FAE50088CDE1 /* Debug */,
+				83330D5919F3FAE50088CDE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83330D2D19F3FAE50088CDE1 /* Project object */;
+}
